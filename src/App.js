@@ -90,7 +90,7 @@ class Menu extends Component {
 
     render() {
         return (
-            <>
+            <> 
                 <div className="title">Vic's Pizza</div>
                 <div className="container">
                     <div className="col-12 right-side">

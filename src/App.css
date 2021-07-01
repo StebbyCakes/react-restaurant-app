@@ -1,6 +1,13 @@
-body {
-    /* background: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/white-brick-wall-background-dutourdumonde-photography.jpg') top left / cover no-repeat; */
-    background: url('https://c1.wallpaperflare.com/preview/941/909/307/pizza-maker-pizzeria-pizza-oven-chef.jpg') top left / cover no-repeat;
+
+#root::before {
+  content: '';
+  position: fixed;
+  z-index: -10;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background: url('https://c1.wallpaperflare.com/preview/941/909/307/pizza-maker-pizzeria-pizza-oven-chef.jpg') top left / cover no-repeat;
 }
 
 h5 {
